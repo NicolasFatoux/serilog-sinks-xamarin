@@ -29,12 +29,12 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\iPhone\Release</OutputPath>
+    <OutputPath>bin\Release\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Developer</CodesignKey>
-    <DocumentationFile>bin\iPhone\Release\Serilog.Sinks.MonoTouch.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Serilog.Sinks.MonoTouch.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Sinks\MonoTouch\NSLogSink.cs" />

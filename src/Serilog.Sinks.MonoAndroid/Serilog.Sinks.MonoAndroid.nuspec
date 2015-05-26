@@ -11,13 +11,12 @@
     <iconUrl>http://serilog.net/images/serilog-sink-nuget.png</iconUrl>
     <tags>serilog logging xamarin android monoandroid</tags>
     <dependencies>
-      <dependency id="Serilog" />
-      <dependency id="Newtonsoft.Json" />
+      <dependency id="Serilog" version="1.5.6" />
     </dependencies>
   </metadata>
   <files>
-    <file src="src\Serilog.Sinks.MonoAndroid\bin\iPhone\Release\Serilog.Sinks.MonoAndroid.dll" target="lib\MonoAndroid" />
-    <file src="src\Serilog.Sinks.MonoAndroid\bin\iPhone\Release\Serilog.Sinks.MonoAndroid.xml" target="lib\MonoAndroid" />
+    <file src="bin\Release\Serilog.Sinks.MonoAndroid.dll" target="lib\MonoAndroid" />
+    <file src="bin\Release\Serilog.Sinks.MonoAndroid.xml" target="lib\MonoAndroid" />
   </files>
 </package>
 
